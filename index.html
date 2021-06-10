@@ -22,7 +22,7 @@
         <div class="menu">
             <div class="contenedor">
                 <p class="logo">Pagina Logo</p>
-                <!-- <img src="imagenes/menu.png" class="menu-icon" alt=""> Logo Mobile-->
+                <img src="ImagenesPrueba/menu.png" class="menu-icon" alt="">
                 <nav>
                     <ul>
                         <li><a class="underline" href="">Inicio</a></li>
@@ -255,12 +255,22 @@
             <div class="contactar">
                 <div class="telefonos">
                     <img src="ImagenesPrueba/img_avatar.png" alt="">
-                    <h1>CONTACTANOS</h1>
-                    <P>Celular: +57 000000000</P>
-                    <P>Correo: 00000@hotmail.com</P>
+                    <div class="datos">
+                        <h1>CONTACTANOS</h1>
+                        <P>Celular: <span> +57 000000000</span></P>
+                        <P>Correo: <span>00000@hotmail.com</span></P>
+
+                    </div>
+
                 </div>
                 <div class="mensaje">
 
+                    <form action="">
+                        <input type="text" placeholder="Nombre">
+                        <input type="email" placeholder="Email Address">
+                        <textarea placeholder="Message"></textarea>
+                        <input type="submit" value="Enviar">
+                    </form>
                 </div>
             </div>
         </div>
@@ -297,7 +307,8 @@
         });
     </script>
 
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 
 </body>
 
