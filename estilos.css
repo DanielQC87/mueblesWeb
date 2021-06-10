@@ -593,11 +593,11 @@
                     /*--------------responsive---------------*/
                     
                     @media screen and (max-width: 800px) {
-                        nav {
+                        nav .menu{
                             position: absolute;
                             top: 100%;
                             left: 0;
-                            width: 40% !important;
+                            width: 47% !important;
                             background: #000;
                             display: none;
                         }
