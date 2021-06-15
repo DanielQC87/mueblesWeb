@@ -602,7 +602,7 @@
                         display: none;
                     }
                     .menu {
-                        width: 46%;
+                        width: 100%;
                         padding: 9px 4px;
                     }
                     /*--------------responsive---------------*/
@@ -618,7 +618,8 @@
                         color: #fff !important;
                     }
                     #intro {
-                        width: 91%;
+                        width: 100%;
+                        padding: 39px 193px;
                     }
                     #nuestroProductos {
                         padding: 40px 7px;
