@@ -603,7 +603,7 @@
                     }
                     .menu {
                         width: 100%;
-                        padding: 9px 4px;
+                        padding: 0px;
                     }
                     /*--------------responsive---------------*/
                     .menu-icon {
@@ -619,7 +619,6 @@
                     }
                     #intro {
                         width: 100%;
-                        padding: 39px 193px;
                     }
                     #nuestroProductos {
                         padding: 40px 7px;
